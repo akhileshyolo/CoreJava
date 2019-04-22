@@ -46,10 +46,16 @@ public class MainFile {
 	
 
 	}
+
 	
 	public static String getWord(int num){
 		String s[] = {"Zero","One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
 		return s[num];
 	}
 
+	//	public enum Numbers {Zero,One, Two, Three, Four, Five, Six, Seven, Eight, Nine};
+	//	public static String getEnumWord(Numbers num){
+	
+	//	}
+	
 }
