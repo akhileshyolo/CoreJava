@@ -25,7 +25,22 @@ public class MainDemo {
 		mangolist.add(mangoes[4]);
 		
 		
+		System.out.println("Based on Quality of Mango");
+		//Short-hand for
+		for(Mango ob : mangolist){
+			System.out.println(ob);
+		}
 		
+		
+		List<Mango> newmangolist = new ArrayList<Mango>();
+		newmangolist.addAll(mangolist);
+
+		
+		System.out.println("Based on Price");
+		//Short-hand for
+		for(Mango ob : newmangolist){
+			System.out.println(ob);
+		}
 		
 		
 		
