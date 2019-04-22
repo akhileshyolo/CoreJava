@@ -17,11 +17,15 @@ public class MainDemo {
 		mangoes[4] = new Mango("Dasheri",5,100);
 		
 		List<Mango> mangolist = new ArrayList<Mango>();
+		
 		mangolist.add(mangoes[0]);
-		mangolist.add(mangoes[0]);
-		mangolist.add(mangoes[0]);
-		mangolist.add(mangoes[0]);
-		mangolist.add(mangoes[0]);
+		mangolist.add(mangoes[1]);
+		mangolist.add(mangoes[2]);
+		mangolist.add(mangoes[3]);
+		mangolist.add(mangoes[4]);
+		
+		
+		
 		
 		
 		
