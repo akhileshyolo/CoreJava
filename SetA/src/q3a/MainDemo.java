@@ -12,7 +12,7 @@ public class MainDemo {
 		vk[0] = new Vehicle(4260, "Duster", "Petrol", 2002);
 		vk[1] = new Vehicle(4260, "Jeep", "Diesel", 2016);
 		vk[2] = new Vehicle(4260, "Mercedes", "Diesel", 2010);
-		vk[3] = new Vehicle(4260, "MBW", "Petrol", 2004);
+		vk[3] = new Vehicle(4260, "BMW", "Petrol", 2004);
 		vk[4] = new Vehicle(4260, "Lamborgini", "Diesel", 2018);
 		
 		List<Vehicle> store = new ArrayList<Vehicle>();
