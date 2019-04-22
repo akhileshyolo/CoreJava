@@ -25,30 +25,43 @@ public class MainDemo {
 		mangolist.add(mangoes[4]);
 		
 		
+		//to apply comparable compareTo() method, no default available like treeset.
+		Collections.sort(mangolist);
+		
+		//Short-hand for. You can use Iterator as well
 		System.out.println("Based on Quality of Mango");
-		//Short-hand for
 		for(Mango ob : mangolist){
 			System.out.println(ob);
 		}
 		
 		
+		
+		
+		//apply mc to arrayList Object Type
+		MangoComparator mc = new MangoComparator();
+		
 		List<Mango> newmangolist = new ArrayList<Mango>();
 		newmangolist.addAll(mangolist);
-
 		
-		System.out.println("Based on Price");
+		//No comparable,comparator available with arraylist. So pass mc here.
+		Collections.sort(newmangolist, mc);
+		
 		//Short-hand for
+		System.out.println("\nBased on Price");
 		for(Mango ob : newmangolist){
 			System.out.println(ob);
 		}
 		
 		
-		
-		
-		
-		
+//		Iterator<Mango> iter = mangolist.iterator();
+//		while(iter.hasNext()){
+//			System.out.println(iter.next());
+//		}
+
 		
 		
 	}
+	
+	
 
 }
