@@ -17,7 +17,12 @@ public class MainDemo {
 		mangoes[4] = new Mango("Dasheri",5,100);
 		
 		List<Mango> mangolist = new ArrayList<Mango>();
-		mangolist.addAll([mangoes[0], mangoes[1], mangoes[2], mangoes[3],mangoes[4]]);
+		mangolist.add(mangoes[0]);
+		mangolist.add(mangoes[0]);
+		mangolist.add(mangoes[0]);
+		mangolist.add(mangoes[0]);
+		mangolist.add(mangoes[0]);
+		
 		
 		
 		
